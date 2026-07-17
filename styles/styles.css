@@ -25,6 +25,7 @@ nav a {
 
 h1 {
     color: var(--color-one);
+    padding-left: 2rem;
 }
 
 main {
@@ -42,7 +43,8 @@ main img {
 }
 
 p {
-    padding: 0;
+    padding-left: 0.5rem;
+    margin: 10px;
 }
 
 aside {
@@ -83,4 +85,8 @@ footer {
     background-color: lightgrey;
     color: var(--border-color);
     clear: both;
+}
+
+.indent {
+    padding-left: 2rem;
 }
