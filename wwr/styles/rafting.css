@@ -1,8 +1,6 @@
 :root {
     --primary-color: forestgreen;
-    /* --secondary-color: #f4a261; */
     --accent1-color: darkslateblue;
-    /* --accent2-color: #e9c46a; */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -86,8 +84,7 @@ h1 {
     float: right;
     width: 125px;
     height: 115px;
-    padding-top: 10px;
-    box-shadow: gray;
+    box-shadow: 0 0 30px black;
 }
 
 section h2{
