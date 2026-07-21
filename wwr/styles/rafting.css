@@ -1,8 +1,8 @@
 :root {
     --primary-color: forestgreen;
-    --secondary-color: #f4a261;
+    /* --secondary-color: #f4a261; */
     --accent1-color: darkslateblue;
-    --accent2-color: #e9c46a;
+    /* --accent2-color: #e9c46a; */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -71,7 +71,7 @@ h1 {
     color: white;
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: -10px;
     left: 40px;
@@ -87,7 +87,7 @@ article {
     width: 125px;
     height: 115px;
     padding-top: 10px;
-    box-shadow: whitesmoke;
+    box-shadow: gray;
 }
 
 section h2{
@@ -103,7 +103,6 @@ section h2{
 }
 
 footer p{
-    padding: -8px;
     margin-bottom: -25px;
     border-top: 1px solid black;
 }
