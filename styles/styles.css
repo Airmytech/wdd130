@@ -12,24 +12,35 @@
     --padding: 20px;
 }
 
+.grid, header, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 nav {
     background-color: var(--color-one);
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
     padding: var(--padding);
+    text-decoration: none;
 }
 
 h1 {
     color: var(--color-one);
-    padding-left: 2rem;
+    padding-left: 1rem;
+    border-bottom: 2px solid var(--color-one);
 }
 
 main {
-    max-width: 800px;
+    max-width: 840px;
+    grid-column: 2/3;
 }
 
 main img {
@@ -50,12 +61,13 @@ p {
 aside {
     width: 20em;
     margin: 1em;
-    border: 1px solid var(--border-color);
     padding: 10px;
     background-color: lightgrey;
     color: var(--border-color);
     text-align: var(--text-align);
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside h2 {
@@ -89,4 +101,9 @@ footer {
 
 .indent {
     padding-left: 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
