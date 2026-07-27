@@ -1,5 +1,5 @@
 :root {
-    --primary-color: forestgreen;
+    --primary-color: black;
     --accent1-color: darkslateblue;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -154,6 +154,10 @@ footer p{
     width: 50px
 }
 
+.socialmedia a{
+    text-decoration: none;
+}
+
 header {
     display: grid;
     grid-template-columns: auto auto;
@@ -176,11 +180,10 @@ header {
     border: 1px solid black;
     background-color: rgb(208, 208, 246);
     text-align: center;
-    padding: px;
     font-size: 1.2rem;
 }
 
-.navigation a{
+nav a{
   text-decoration: none;
   color: black;
   text-align: center;
