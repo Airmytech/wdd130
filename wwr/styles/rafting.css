@@ -1,6 +1,6 @@
 :root {
     --primary-color: black;
-    --accent1-color: darkslateblue;
+    --accent1-color: rgb(25, 19, 55);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -64,8 +64,11 @@ h1 {
     left: 40px;
     right: 40px;
     text-align: left;
-    opacity: 0.8;
+    opacity: 0.6;
     background-color: var(--accent1-color);
+}
+
+.hero p {
     color: white;
 }
 
@@ -146,7 +149,7 @@ footer {
     gap: 70px;
 }
 
-p{
+.history p{
     color: black;
 }
 
