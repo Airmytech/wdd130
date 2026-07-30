@@ -1,0 +1,43 @@
+
+table {
+    border: 3px solid rgb(152, 152, 152);
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 50%;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    
+}
+
+td, th {
+    border: 2px solid gray;
+    padding: 8px 10px;
+    text-align: center;
+}
+
+tfoot tr, thead tr {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(204, 200, 200);
+}
+
+td, caption {
+    transition: background-color 0.3s ease;
+}
+
+td:hover,
+caption:hover {
+    background-color: brown;
+}
+
+caption {
+    font-size: 20px;
+    background-color: blue;
+    font-weight: 900;
+    /* caption-side: bottom; */
+}
