@@ -22,54 +22,62 @@
     </header>
 
     <main>
+
+        <h2>Splash Water Rafting</h2>
+            <p>No.5 Onyeka Ikediashi Street</p> 
+            <p>Asaba, Delta State</p>
+            <p>+234 80 62064285</p>
+            <p>info@splashrafting.com</p>
+
         <div class="hero">
-            <h2>White Water Rafting Company</h2>
-            <p>123 Main River Street</p> 
-            <p>Kolob, California</p>
-            <p>+1 999 999 9999</p>
-            <p>info@whitewater.com</p>
-
-            <img src="images/back-hero-image.jpg" alt="Ride the current">
             
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="John Doe">
+            <div class="left">
+                <!-- <img src="images/back-hero-image.jpg" alt="Ride the current"> -->
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d797.0806761163875!2d6.706811244066841!3d6.222866326311798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1785852687005!5m2!1sen!2sng" width="600px" height="450px"  allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            
+            <form class="right">
+                
+                <div class="form-item">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe">
+                </div>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="johndoe@mail.com">
+                <div class="form-item">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="johndoe@mail.com">
+                </div>
 
-                    <div>
+                <div class="radio1">
                     <label>Message Purpose</label>
 
-                        <input type="radio" name="inquiry" id="inquiry" value="inquiry">
-                        <label for="Inquiry">General Inquiry</label>
+                    <div class="radio-item">
+                        <label><input type="radio" name="purpose" id="inquiry">General Inquiry</label>
 
-                        <input type="radio" name="question" id="question" value="question">
-                        <label for="question">Reservation Question</label>
+                        <label><input type="radio" name="purpose" id="question">Reservation Question</label>
 
-                        <input type="radio" name="suggestion" id="suggestion" value="suggestion">
-                        <label for="suggestion">Website Suggestion</label>
+                        <label><input type="radio" name="purpose" id="suggestion">Website Suggestion</label>
                     </div>
+
+                </div>
                 
                 <label for="message">Message</label>
-                <textarea name="" id=""></textarea>
+                <textarea name="message" id="message" placeholder="Type here" rows="3"></textarea>
+
+                <div class="form-item checkbox-span">
+                    <input type="checkbox" id="sub" name="sub">
+                    <label for="sub">Please Subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit">Get in Touch!</button>
 
             </form>
+            
         </div>
 
-        <section class="history">
-            <h2>History</h2>
-            <div class="historyco">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem tempore rerum similique deleniti qui molestiae, neque quas dicta, eius labore tenetur blanditiis velit reprehenderit. Eveniet, officiis odit, amet sed mollitia deleniti labore quibusdam eaque assumenda </p>
-
-                <img src="images/splash-rafting.jpg" alt="Splash Rafting">
-
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem tempore rerum similique deleniti qui molestiae, neque quas dicta, eius labore tenetur blanditiis velit reprehenderit. Eveniet, officiis odit, amet sed mollitia deleniti labore quibusdam eaque assumenda </p>
-            </div>
-        </section>
 
         <section class="box">
-            <h2>Adventure Awaits You!</h2>
+            <h2>We Are Here to Serve You</h2>
             <div class="adventure">
                 <figure>
                     <img src="images/adventure1.jpg" alt="Rafting Adventure">
@@ -82,14 +90,6 @@
                 <figure>
                     <img src="images/adventure3.jpg" alt="Yellow Rafting">
                     <figcaption>Silver Current</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/adventure4.jpg" alt="Red Rafting">
-                    <figcaption>Glacier Run</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/adventure5.jpg" alt="Rafting the Waves">
-                    <figcaption>Wolf Creek</figcaption>
                 </figure>
             </div>
         </section>
